@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador BlueUruz</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <header>
+        <a href="#" class="a-logo">
+            <img src="./assets/Logo.png" alt="logo de Alura" class="logo_alura">
+        </a>
+    </header>
+    <main class="fondo">
+        <section class="presentacion_base">
+            <section class="presentacion_base_encriptador">
+                <h1>TEXT FOOTBALL ENCRYPTOR</h1>
+                <textarea class="encriptar" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="aviso_de_validador">
+                    <p class="texto_aviso">
+                        Solo puedes encriptar palabras en minúsculas y sin tildes.
+                    </p>
+                </div>
+                <div class="encriptador_contenido">
+                    <button type="submit" class="btn_encriptar">
+                        Encriptar
+                    </button>
+                    <button type="submit" class="btn_desencriptar">
+                        Desencriptar
+                    </button>
+                </div>               
+            </section> 
+            <section class="tarjeta">
+                <textarea type = "mensaje" class="evaluar" readonly></textarea>
+                <div class="tarjeta_contenido">
+                    
+                    <p class="texto_uno">No se ha escrito ningún mensaje</p>
+                    <p class="texto_dos">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                    <img src="./assets/Muñeco.png" alt="imagen de muñeco" class="img_muñeco">
+                    
+                </div>
+                
+                <button type="submit" class="btn_copiar"> Copiar </button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p class="copyR">&copy; Encriptador de texto [Desarrollado por BlueUruz System]
+        </p>       
+    </footer>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
